@@ -1,0 +1,16 @@
+.page{
+	background-color: white;
+}
+
+.profile-image{
+	
+	height: 200px;
+	border-radius: 50%;
+	padding:1cm;
+}
+.icon{
+	height: 300px;
+	border-radius: 50%;
+	
+	padding: 1cm;
+}
