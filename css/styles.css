@@ -1,3 +1,34 @@
+body,
+td,
+th,
+tr,
+p,
+a {
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	font-size: 15px
+}
+
+strong {
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+heading {
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	font-size: 22px;
+}
+
+papertitle {
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 700
+}
+
+name {
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	font-size: 32px;
+}
+
 .page{
 	background-color: white;
 }
@@ -21,4 +52,26 @@
 .name {
 	font-family: 'Lato', Verdana, Helvetica, sans-serif;
 	font-size: 32px;
+}
+
+.td-left{
+	padding:20px;
+	width:25%;
+	vertical-align:middle
+}
+
+.td-right{
+	padding:20px;
+	width:25%;
+	vertical-align:middle
+}
+
+.td-full{
+	padding:20px;
+	width:100%;
+	vertical-align:middle
+}
+
+.tr-full{
+	padding: 0px;
 }
