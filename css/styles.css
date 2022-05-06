@@ -3,10 +3,14 @@
 }
 
 .profile-image{
-	
-	width: 100px;
+	width:100%;
+	max-width: 300px;
+	height: auto;
 	border-radius: 50%;
-	padding:1cm;
+}
+
+.imgcontainer{
+	padding:2.5%;
 }
 .icon{
 	height: 300px;
