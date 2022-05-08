@@ -28,3 +28,11 @@ name {
 	font-family: 'Lato', Verdana, Helvetica, sans-serif;
 	font-size: 32px;
 }
+
+.profile-image{
+	width:100%;
+	max-width: 300px;
+	height: auto;
+	border-radius: 50%;
+}
+
