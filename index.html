@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/styles.css">
 
     </head>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <body>
 
     <div class="container mt-5 mb-5">
@@ -93,35 +93,49 @@
 
         </div>
 
-        <div>
+        <div id="education">
             <h3>Education</h3>
-
-            <div class="card mb-3 border-dark">
-                <div class="card-body">
-                    <h5 class="card-title"><a style="font-size: large" href="https://vt.edu/">Virginia Tech</a></h5>
-                    <p class="card-text">Master's in Computer Science</p>
-                    <p class="card-text">CGPA : 3.85/4.0 | Aug 2021 - May 2023 (Expected)</p>
-                </div>
-            </div>
-
-            <div class="card mb-3 border-dark">
-                <div class="card-body">
-                    <h5 class="card-title"><a style="font-size: large" href="http://www.unipune.ac.in/">Savitribai Phule Pune University</a></h5>
-                    <p class="card-text">Bachelor's in Computer Engineering </p>
-                    <p class="card-text">CGPA : 3.62/4.0 | Aug 2016 - May 2020</p>
-                </div>
-            </div>
-
-            <div class="card mb-3 border-dark">
-                <div class="card-body">
-                    <h5 class="card-title">Relevant Coursework</h5>
-                    <p class="card-text">
-                        Algorithms, Data Structures, Object Oriented Programming, Operating Systems, Database Systems, Software Engineering, Project Management, Web & Cloud Technology, Operating Systems, Information Storage and Retrieval, Fundamentals of Information Security
-                    </p>
-                </div>
-            </div>
-
         </div>
+        <script>
+            var education = [
+                {
+                    university: "Virginia Tech",
+                    universityLink: "https://vt.edu/",
+                    degree : "Master's in Computer Science",
+                    gpa: "3.62/4.0",
+                    fromTo : "Aug 2021 - May 2023 (Expected)"
+                },
+                {
+                    university: "Savitribai Phule Pune University",
+                    universityLink: "http://www.unipune.ac.in/",
+                    degree : "Bachelor's in Computer Engineering",
+                    gpa: "3.85/4.0",
+                    fromTo : "Aug 2016 - May 2020"
+                }];
+            for (i = 0; i< education.length; i++) {
+                var myobj=  education[i];
+                var item = "<div class=\"card mb-3 border-dark\">\n" +
+                    "                <div class=\"card-body\">\n" +
+                    "                    <h5 class=\"card-title\"><a style=\"font-size: large\" href=\""+myobj["universityLink"]+"\">"+myobj["university"]+"</a></h5>\n" +
+                    "                    <p class=\"card-text\">"+ myobj["degree"]+"</p>\n" +
+                    "                    <p class=\"card-text\">"+"CGPA : "+myobj["gpa"]+" | "+myobj["fromTo"]+"</p>\n" +
+                    "                </div>\n" +
+                    "            </div>"
+
+                $(item).appendTo("#education")
+            }
+
+            var item = "<div class=\"card mb-3 border-dark\">\n" +
+                "                <div class=\"card-body\">\n" +
+                "                    <h5 class=\"card-title\">Relevant Coursework</h5>\n" +
+                "                    <p class=\"card-text\">\n" +
+                "                        Algorithms, Data Structures, Object Oriented Programming, Operating Systems, Database Systems, Software Engineering, Project Management, Web & Cloud Technology, Operating Systems, Information Storage and Retrieval, Fundamentals of Information Security\n" +
+                "                    </p>\n" +
+                "                </div>\n" +
+                "            </div>"
+            $(item).appendTo("#education")
+
+        </script>
 
         <div>
 
