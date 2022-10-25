@@ -1,8 +1,380 @@
 <html>
-  <head>
-    <meta http-equiv="refresh" content="7; url='https://arpitthool.herokuapp.com/'" />
-  </head>
-  <body>
-    <p>Please follow this link: <a href="https://arpitthool.herokuapp.com/">https://arpitthool.herokuapp.com/</a>.</p>
-  </body>
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="author" content="Arpit Thool">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>
+    Arpit Thool
+  </title>
+
+  <link rel="stylesheet" href="stylesheets/styles.css">
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/animation.js"></script>
+
+<body>
+
+<div class="container mt-5 mb-5">
+
+  <div class="card mb-3 p-3 border-dark has-animation animation-ltr">
+    <div class="row g-0">
+
+      <div class="col-md-8">
+
+        <div class="card-body">
+          <p style="text-align:center">
+          <h1>Arpit Thool</h1>
+          </p>
+          <p>
+            I am a graduate student at Virginia Tech, pursuing my Master's in Computer Science degree from the College of Engineering in Blacksburg, Virginia.
+            My research interest lies in Software Engineering. For my Master's thesis I am working with Dr. Chris Brown at Virginia Tech's  Computer Science department.
+            <br>
+            <br>
+            Feel free to check out my resume or reach out me via email.
+          </p>
+          <p>
+            <a href="research.html">Research</a> &nbsp/&nbsp
+            <a href="mailto:arpitthool@vt.edu">Email</a> &nbsp/&nbsp
+            <a href="https://drive.google.com/file/d/1J7lcuwZA_QHsU3XG-EL_X6aLlq-zTSgN/view?usp=sharing">Resume</a> &nbsp/&nbsp
+            <a href="https://www.linkedin.com/in/arpit-thool/">LinkedIn</a> &nbsp/&nbsp
+            <a href="https://github.com/arpitthool/">Github</a>
+          </p>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <a href="/"><img alt="profile photo" src="images/profile.jpg" class="img-fluid rounded-start profile-image"></a>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div>
+    <h3>
+      Skills
+    </h3>
+    <div class="card mb-3 border-dark has-animation animation-ltr">
+      <div class="card-body" id="skills">
+      </div>
+    </div>
+  </div>
+  <script>
+    var skills = [
+      {
+        category:"Programming Languages",
+        skill:"Java, Python, PHP, Javascript"
+      },
+      {
+        category:"Database Technologies",
+        skill:"MySQL, Redis, NoSQL, MongoDB"
+      },
+      {
+        category:"Other Technologies",
+        skill:"AWS, GCP, Docker, Kubernetes K8, API, REST APIs, Git, GitHub, GitLab, HTTP, JSON, Spring boot, Django, Ruby on Rails, Linux, Jenkins, Vue JS, HTML5"
+      },
+      {
+        category:"Industry Skills",
+        skill:"Software Development, Backend, Test Driven Development, SOLID Principles, Agile Development, Digital Transformation, OOP, Debugging, Troubleshooting, CICD"
+      },
+      {
+        category:"Soft Skills",
+        skill:"          Effective communication, Goal oriented, Open-minded, Adaptable, Flexible, Critical thinking and Problem solving"
+      },
+    ];
+    // "+myobj[""]+"
+    for (i = 0; i< skills.length; i++) {
+      var myobj=  skills[i];
+      var item = "<h5 class=\"card-title\">"+myobj["category"]+"</h5>" +
+              "<p class=\"card-text\">" +myobj["skill"]+
+              "</p>"
+
+      $(item).appendTo("#skills")
+    }
+
+  </script>
+
+
+  <div id="education">
+    <h3>Education</h3>
+  </div>
+  <script>
+    var education = [
+      {
+        university: "Virginia Tech",
+        universityLink: "https://vt.edu/",
+        degree : "Master's in Computer Science",
+        gpa: "3.85/4.0",
+        fromTo : "Aug 2021 - May 2023 (Expected)"
+      },
+      {
+        university: "Savitribai Phule Pune University",
+        universityLink: "http://www.unipune.ac.in/",
+        degree : "Bachelor's in Computer Engineering",
+        gpa: "3.62/4.0",
+        fromTo : "Aug 2016 - May 2020"
+      }];
+    for (i = 0; i< education.length; i++) {
+      var myobj=  education[i];
+      var item = "<div class=\"card mb-3 border-dark has-animation animation-ltr\">" +
+              "                <div class=\"card-body\">" +
+              "                    <h5 class=\"card-title\"><a style=\"font-size: large\" href=\""+myobj["universityLink"]+"\">"+myobj["university"]+"</a></h5>" +
+              "                    <p class=\"card-text\">"+ myobj["degree"]+"</p>" +
+              "                    <p class=\"card-text\">"+"CGPA : "+myobj["gpa"]+" | "+myobj["fromTo"]+"</p>" +
+              "                </div>" +
+              "            </div>"
+
+      $(item).appendTo("#education")
+    }
+
+    var item = "<div class=\"card mb-3 border-dark has-animation animation-ltr\">" +
+            "                <div class=\"card-body\">" +
+            "                    <h5 class=\"card-title\">Relevant Coursework</h5>" +
+            "                    <p class=\"card-text\">" +
+            "                        Algorithms, Data Structures, Object Oriented Programming, Operating Systems, Database Systems, Software Engineering, Project Management, Web & Cloud Technology, Operating Systems, Information Storage and Retrieval, Fundamentals of Information Security" +
+            "                    </p>" +
+            "                </div>" +
+            "            </div>"
+    $(item).appendTo("#education")
+
+  </script>
+
+  <div id="experience">
+    <h3>Work Experience</h3>
+  </div>
+  <script>
+    var exp = [
+      {
+        position: "Software Engineer Intern",
+        org:"Lutron",
+        orgLink: "https://www.lutron.com",
+        place: "Pennsylvania, United States",
+        fromToDate: "May 2022 - Aug 2022",
+        points :
+                [
+                  "Spearheaded design and development of a Spring (JAVA) Software app to generate Terraform configuration code for Artifactory, a cloud resource.",
+                  "Employed dependency injection design pattern for loose coupling, reduce boilerplate code and better reusability and maintainability.",
+                  "Documented Use Cases and requirements by collaborating with Product owners and understanding their need.",
+                  "Researched and discussed various approaches to provide an optimal solution.",
+                  "Added feature in Tech Support Tool to manipulate files fetched from remote IoT devices for better debugging, which minimized operation costs by 20%."
+                ],
+        technology : "Java | Spring | API | BitBucket | Terraform | C#"
+      },
+      {
+        position: "Software Engineer",
+        org:"Virginia Tech",
+        orgLink: "https://vt.edu/",
+        place: "Virginia, United States",
+        fromToDate: "Aug 2021 - May 2022",
+        points :
+                [
+                  "Contributed to development and maintenance of software applications writing high-quality and secure Java code.",
+                  "Researched new technologies for solving problems faced by stakeholders.",
+                  "Orchestrated a software system in Java to communicate with ZAP and run scans on web applications and minimized project costs by 80%. This was done with the help of API calls and efficiently processing JSON data."
+                ],
+        technology : "Java | GitLab | API | RESTful Web services | Agile"
+      },
+      {
+        position: "Associate Software Engineer (FullStack)",
+        org:"Acquia",
+        orgLink: "https://www.acquia.com",
+        place: "Pune, India",
+        fromToDate: "Sep 2020 - July 2021",
+        points :
+                [
+                  "Fashioned a cloud based email automation SaaS application with web service, code, API, User Interface, Database, and MySQL, NoSQL(Redis) development.",
+                  "Orchestrated the MVC software architecture with observers and event triggers according to business requirements.",
+                  "Modeled and implemented an efficient solution to synchronize the creation, modification and deletion of an asset in the parent template to children templates, saving the client up to 60% of their resources spent on replicating templates.",
+                  "Consistently stood among the top 3 contributors in every sprint."
+                ],
+        technology : "Java | Python | MySQL | Docker | AWS | GitHub | JavaScript | API | REST APIs | Agile"
+      },
+      {
+        position: "Software Engineer Intern",
+        org:"Technogong",
+        orgLink: "http://www.technogong.com/",
+        place: "Pune, India",
+        fromToDate: "Sep 2019 - Mar 2020",
+        points :
+                [
+                  "Designed and developed ‘Bizhawk’, an android application for managing day-to-day activities in a restaurant. Saved on estimated costs by approximately 75% with near zero-defect delivery.",
+                  "Managed the project using Agile methodology to meet sprint goals.",
+                  "Implemented app activities in high-quality Java code, wrote PHP scripts to run on a LAMP server to implement software functional requirements."
+                ],
+        technology : "Java | PHP | MySQL | Android | Scripting | Linux | Apache | Agile"
+      }
+    ];
+    // "+myobj[""]+"
+    for (i = 0; i< exp.length; i++) {
+      var myobj=  exp[i];
+      var item = "    <div class=\"card mb-3 border-dark has-animation animation-ltr\">" +
+              "      <div class=\"card-body\">" +
+              "        <h5 class=\"card-title\">"+myobj["position"]+" @ <a style=\"font-size: large\" href=\""+myobj["orgLink"]+"\">"+myobj["org"]+"</a></h5>" +
+              "        <p class=\"card-text\">" +
+              "          "+myobj["place"]+" |\t"+myobj["fromToDate"]+
+              "        <ul>"
+      for(j =0; j < myobj["points"].length; j++) {
+        item += "<li>"+myobj["points"][j]+ "</li>"
+      }
+      item += "</ul></p>" +
+              "      </div>" +
+              "      <div class=\"card-footer bg-transparent\">" +
+              "        Technologies Used : "+myobj["technology"]+
+              "      </div>" +
+              "    </div>"
+
+      $(item).appendTo("#experience")
+    }
+
+  </script>
+
+  <div id="leadership">
+    <h3>
+      Leadership Expereince
+    </h3>
+  </div>
+  <script>
+    var exp = [
+      {
+        position: "Mentor",
+        org:"Acquia",
+        orgLink: "https://www.acquia.com",
+        place: "Pune, India",
+        fromToDate: "May 2021 - July 2021",
+        points :
+                [
+                  "Mentored new college graduates joining Acquia Engineering team. Had weekly meetings to check their progress and guide them.",
+                  "Helped and advised the mentees on which technologies to revise and focus on, for a smooth transition onto their respective projects."
+                ],
+        technology : "Java | Python | MySQL | Docker | AWS | GitHub | JavaScript | API | REST APIs | Agile"
+      },
+    ];
+    // "+myobj[""]+"
+    for (i = 0; i< exp.length; i++) {
+      var myobj=  exp[i];
+      var item = "    <div class=\"card mb-3 border-dark has-animation animation-ltr\">" +
+              "      <div class=\"card-body\">" +
+              "        <h5 class=\"card-title\">"+myobj["position"]+" @ <a style=\"font-size: large\" href=\""+myobj["orgLink"]+"\">"+myobj["org"]+"</a></h5>" +
+              "        <p class=\"card-text\">" +
+              "          "+myobj["place"]+" |\t"+myobj["fromToDate"]+
+              "        <ul>"
+      for(j =0; j < myobj["points"].length; j++) {
+        item += "<li>"+myobj["points"][j]+"</li>"
+      }
+      $(item).appendTo("#leadership")
+    }
+
+  </script>
+
+
+  <div id="projects">
+    <h3>
+      Projects
+    </h3>
+
+    <div class="card mb-3 border-dark has-animation animation-ltr">
+      <div class="card-body">
+        <h5 class="card-title">Amazon Clone - React</h5>
+        <p class="card-text">
+          Jun 2022 - Jul 2022 | <a href="https://challenge-3742b.web.app/">Website link</a>
+
+        <ul>
+          <li>
+            A React web app having a few features of the Amazon Website.
+          </li>
+          <li>
+            Hosted React frontend on Firebase, with backend implemented with Express web framework,
+            hosted using Google Cloud's Cloud Functions.
+          </li>
+          <li>
+            Employed Event Driven Architecture using React Context API or Redux.
+          </li>
+          <li>
+            Added feature to work with real time data residing in a firestore NoSQL database hosted on Firebase.
+          </li>
+          <li>
+            Implemented user login and register functionality using firebase auth module.
+          </li>
+          <li>
+            Added support for real time card payments using Stripe.
+          </li>
+        </ul>
+        </p>
+      </div>
+      <div class="card-footer bg-transparent">
+        Technologies Used : JavaScript | React | NoSQL | Firebase | Google Cloud | API | Stripe
+      </div>
+    </div>
+
+    <div class="card mb-3 border-dark has-animation animation-ltr">
+      <div class="card-body">
+        <h5 class="card-title">Travel Diary & Planner</h5>
+        <p class="card-text">
+          2021 - Dec 2021 | <a href="https://github.com/arpitthool/Travel-Diary-Planner">Github Link</a>
+        <ul>
+          <li>
+            Hosted a web application on an AWS instance using Apache server for currency conversion, hotel availability, visualizing COVID-19 statistics and weather lookup at different locations with the help of REST APIs using JSON data.
+
+          </li>
+          <li>
+            An authenticated user is able to store and view various types of files just like an online diary.
+
+          </li>
+          <li>
+            Used Java Jakarta EE web framework and implemented the database using MySQL.
+
+          </li>
+        </ul>
+        </p>
+      </div>
+      <div class="card-footer bg-transparent">
+        Technologies Used : Java | Jakarta EE | MySQL | Linux | AWS | Apache | GitHub
+      </div>
+    </div>
+    <div class="card mb-3 border-dark has-animation animation-ltr">
+      <div class="card-body">
+        <h5 class="card-title">Car Mapping</h5>
+        <p class="card-text">
+          Oct 2020 - Nov 2020 | <a href="https://github.com/arpitthool/jenkins-git">Github Link</a>
+
+        <ul>
+          <li>
+            Hosted a flask web app on Heroku to solve a competitive coding task, the database was implemented using MongoDB.
+
+          </li>
+          <li>
+            Built a CICD pipeline using a Jenkins server, and GitHub webhooks to automate testing and deployment.
+
+          </li>
+          <li>
+            Collaborated within a team of three people and followed the Agile Process Model for the development process.
+
+          </li>
+        </ul>
+        </p>
+      </div>
+      <div class="card-footer bg-transparent">
+        Technologies Used : Python | Flask | MongoDB | GitHub | Jenkins | Webhooks | Heroku
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
+

@@ -1,0 +1,122 @@
+<html>
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="author" content="Arpit Thool">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>
+        Arpit Thool
+    </title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/animation.js"></script>
+
+<body>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="card mb-3 p-3 border-dark has-animation animation-ltr">
+            <div class="row g-0">
+
+                <div class="col-md-8">
+
+                    <div class="card-body">
+                        <p style="text-align:center">
+                        <h1>Arpit Thool</h1>
+                        </p>
+                        <p>
+                            I am a graduate student at Virginia Tech, pursuing my Master's in Computer Science degree from the College of Engineering in Blacksburg, Virginia.
+                            My research interest lies in Software Engineering. For my Master's thesis I am working with Dr. Chris Brown at Virginia Tech's Computer Science department.
+                            My research is about inclusion of security practices into Agile software development methodology.
+                            <br>
+                            <br>
+                            Feel free to check out my resume or reach out me via email.
+                        </p>
+                        <p>
+                            <a href="/">Main Page</a> &nbsp/&nbsp
+                            <a href="research.html">Research</a> &nbsp/&nbsp
+                            <a href="mailto:arpitthool@vt.edu">Email</a> &nbsp/&nbsp
+                            <a href="https://drive.google.com/file/d/1J7lcuwZA_QHsU3XG-EL_X6aLlq-zTSgN/view?usp=sharing">Resume</a> &nbsp/&nbsp
+                            <a href="https://www.linkedin.com/in/arpit-thool/">LinkedIn</a> &nbsp/&nbsp
+                            <a href="https://github.com/arpitthool/">Github</a>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="/"><img alt="profile photo" src="images/profile.jpg" class="img-fluid rounded-start profile-image"></a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="research">
+            <h3>Research Work</h3>
+        </div>
+
+        <script>
+            var work = [
+                {
+                    name : "Summary about my research experiences, plans and aspirations.",
+                    path : "data/initial-essay.pdf"
+                },
+                {
+                    name : "Exploring my research area.",
+                    path : "data/exploring-reseach-area.pdf"
+                },
+                {
+                    name : "Related research work and my Research Questions.",
+                    path : "data/research-questions.pdf"
+                },
+                {
+                    name : "Identifying Research Questions and My Research Abstract",
+                    path : "data/abstract.pdf"
+                },
+                {
+                    name : "Security Practices in Agile Software Development Process : A literature review",
+                    path : "data/literature-review.pdf"
+                },
+                {
+                    name : "Publishing Venues and Peer Reviews",
+                    path : "data/venues-peer-review.pdf"
+                },
+                {
+                    name : "Research Proposal",
+                    path : "data/research-proposal.pdf"
+                },
+                ];
+            for (i = 0; i< work.length; i++) {
+                var myobj=  work[i];
+
+                var item = "<div class=\"card mb-3 border-dark has-animation animation-ltr\">" +
+                    "      <div class=\"card-body\">" +
+                    "           <a style=\"font-size: large\" href=\""+myobj["path"]+"\">"+myobj["name"]+"</a>" +
+                    "      </div>" +
+                    "    </div>"
+
+                $(item).appendTo("#research")
+            }
+
+        </script>
+
+    </div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
