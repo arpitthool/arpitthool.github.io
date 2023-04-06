@@ -12,101 +12,165 @@
         Arpit Thool
     </title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="javascript/animation.js"></script>
 
 <body>
 
     <div class="container mt-5 mb-5">
+            <div>
 
-        <div class="card mb-3 p-3 border-dark has-animation animation-ltr">
-            <div class="row g-0">
+                <div class="card mb-3 p-3">
+                    <div class="row g-0">
 
-                <div class="col-md-8">
+                        <div class="col-md-8">
 
-                    <div class="card-body">
-                        <p style="text-align:center">
-                        <h1>Arpit Thool</h1>
-                        </p>
-                        <p>
-                            I am a graduate student at Virginia Tech, pursuing my Master's in Computer Science degree from the College of Engineering in Blacksburg, Virginia.
-                            My research interest lies in Software Engineering. For my Master's thesis I am working with Dr. Chris Brown at Virginia Tech's Computer Science department.
-                            My research is about inclusion of security practices into Agile software development methodology.
-                            <br>
-                            <br>
-                            Feel free to check out my resume or reach out me via email.
-                        </p>
-                        <p>
-                            <a href="/">Main Page</a> &nbsp/&nbsp
-                            <a href="research.html">Research</a> &nbsp/&nbsp
-                            <a href="mailto:arpitthool@vt.edu">Email</a> &nbsp/&nbsp
-                            <a href="https://drive.google.com/file/d/1J7lcuwZA_QHsU3XG-EL_X6aLlq-zTSgN/view?usp=sharing">Resume</a> &nbsp/&nbsp
-                            <a href="https://www.linkedin.com/in/arpit-thool/">LinkedIn</a> &nbsp/&nbsp
-                            <a href="https://github.com/arpitthool/">Github</a>
-                        </p>
+                            <div class="card-body">
+                                <p style="text-align:center">
+                                <h1>Arpit Thool</h1>
+                                </p>
+                                <p>
+                                    I am a graduate student at Virginia Tech, pursuing my Master's in Computer Science degree from the College of Engineering in Blacksburg, Virginia.
+                                    My research interest lies in Software Engineering. For my Master's thesis I am working with Dr. Chris Brown at Virginia Tech's Computer Science department.
+                                    My research is about inclusion of security practices into Agile software development methodology.
+                                    <br>
+                                    <br>
+                                    Feel free to check out my resume or reach out me via email.
+                                </p>
+                                <p>
+                                    <a href="index.html">Main Page</a> &nbsp/&nbsp
+                                    <a href="research.html">Research</a> &nbsp/&nbsp
+                                    <a href="mailto:arpitthool@vt.edu">Email</a> &nbsp/&nbsp
+                                    <a href="data/Resume.pdf">Resume</a> &nbsp/&nbsp
+                                    <a href="https://www.linkedin.com/in/arpit-thool/">LinkedIn</a> &nbsp/&nbsp
+                                    <a href="https://github.com/arpitthool/">Github</a>
+                                </p>
 
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="images/profilePic.jpg"><img alt="profile photo" src="images/profilePic.jpg" class="img-fluid rounded-start profile-image"></a>
+
+                        </div>
                     </div>
+
+                </div>
+            </div>
+        <div>
+            <h3>Research Work</h3>
+        </div>
+        <div id="accordion">
+
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Summary about my research experiences, plans and aspirations.
+                        </button>
+                    </h5>
                 </div>
 
-                <div class="col-md-4">
-                    <a href="/"><img alt="profile photo" src="images/profile.jpg" class="img-fluid rounded-start profile-image"></a>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <embed src="data/initial-essay.pdf" width="800px" height="2100px" />
+                    </div>
+                </div>
+            </div>
 
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Exploring my research area.
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <embed src="data/exploring-reseach-area.pdf" width="800px" height="2100px" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Related research work and my Research Questions.
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <embed src="data/research-questions.pdf" width="800px" height="2100px" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Identifying Research Questions and My Research Abstract
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        <embed src="data/abstract.pdf" width="800px" height="2100px" />
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Security Practices in Agile Software Development Process : A literature review
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        <embed src="data/literature-review.pdf" width="800px" height="2100px" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Publishing Venues and Peer Reviews
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                    <div class="card-body">
+                        <embed src="data/venues-peer-review.pdf" width="800px" height="2100px" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingSeven">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Research Proposal
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                    <div class="card-body">
+                        <embed src="data/research-proposal.pdf" width="800px" height="2100px" />
+                    </div>
                 </div>
             </div>
 
         </div>
-
-        <div id="research">
-            <h3>Research Work</h3>
-        </div>
-
-        <script>
-            var work = [
-                {
-                    name : "Summary about my research experiences, plans and aspirations.",
-                    path : "data/initial-essay.pdf"
-                },
-                {
-                    name : "Exploring my research area.",
-                    path : "data/exploring-reseach-area.pdf"
-                },
-                {
-                    name : "Related research work and my Research Questions.",
-                    path : "data/research-questions.pdf"
-                },
-                {
-                    name : "Identifying Research Questions and My Research Abstract",
-                    path : "data/abstract.pdf"
-                },
-                {
-                    name : "Security Practices in Agile Software Development Process : A literature review",
-                    path : "data/literature-review.pdf"
-                },
-                {
-                    name : "Publishing Venues and Peer Reviews",
-                    path : "data/venues-peer-review.pdf"
-                },
-                {
-                    name : "Research Proposal",
-                    path : "data/research-proposal.pdf"
-                },
-                ];
-            for (i = 0; i< work.length; i++) {
-                var myobj=  work[i];
-
-                var item = "<div class=\"card mb-3 border-dark has-animation animation-ltr\">" +
-                    "      <div class=\"card-body\">" +
-                    "           <a style=\"font-size: large\" href=\""+myobj["path"]+"\">"+myobj["name"]+"</a>" +
-                    "      </div>" +
-                    "    </div>"
-
-                $(item).appendTo("#research")
-            }
-
-        </script>
 
     </div>
 
