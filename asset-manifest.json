@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.73ffea83.css",
-    "main.js": "/static/js/main.6b7e7214.js",
+    "main.js": "/static/js/main.1854e796.js",
     "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
     "static/js/64.78d7bba3.chunk.js": "/static/js/64.78d7bba3.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
     "static/js/769.aa54c31a.chunk.js": "/static/js/769.aa54c31a.chunk.js",
+    "static/media/traveldiaryplanner.png": "/static/media/traveldiaryplanner.29c0d39ee3431d839bb9.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/taskmanager.png": "/static/media/taskmanager.f536294ed8b732e2b3f4.png",
     "static/media/sppulogo.png": "/static/media/sppulogo.89cf823535405edc6fcd.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/vtlogo.jpg": "/static/media/vtlogo.5b829d3facc71a49e87c.jpg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/carmap.webp": "/static/media/carmap.a02f29d1f5b9196fc136.webp",
     "static/media/acquialogo.jpg": "/static/media/acquialogo.e978ad91d2b46e92c0b7.jpg",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/lutronlogo.webp": "/static/media/lutronlogo.8975480293f3773fb361.webp",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
-    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
-    "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.73ffea83.css.map": "/static/css/main.73ffea83.css.map",
-    "main.6b7e7214.js.map": "/static/js/main.6b7e7214.js.map",
+    "main.1854e796.js.map": "/static/js/main.1854e796.js.map",
     "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
     "64.78d7bba3.chunk.js.map": "/static/js/64.78d7bba3.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
@@ -32,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.73ffea83.css",
-    "static/js/main.6b7e7214.js"
+    "static/js/main.1854e796.js"
   ]
 }
