@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.73ffea83.css",
-    "main.js": "/static/js/main.e90e961f.js",
+    "main.js": "/static/js/main.6b2063a0.js",
     "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
     "static/js/64.78d7bba3.chunk.js": "/static/js/64.78d7bba3.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
@@ -9,6 +9,7 @@
     "static/media/amazonclone.png": "/static/media/amazonclone.b5a33536fb6e159cdc4d.png",
     "static/media/traveldiaryplanner.png": "/static/media/traveldiaryplanner.29c0d39ee3431d839bb9.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/goLLM.png": "/static/media/goLLM.1260849f26824200009e.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/taskmanager.png": "/static/media/taskmanager.f536294ed8b732e2b3f4.png",
     "static/media/sppulogo.png": "/static/media/sppulogo.89cf823535405edc6fcd.png",
@@ -26,7 +27,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.73ffea83.css.map": "/static/css/main.73ffea83.css.map",
-    "main.e90e961f.js.map": "/static/js/main.e90e961f.js.map",
+    "main.6b2063a0.js.map": "/static/js/main.6b2063a0.js.map",
     "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
     "64.78d7bba3.chunk.js.map": "/static/js/64.78d7bba3.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
@@ -34,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.73ffea83.css",
-    "static/js/main.e90e961f.js"
+    "static/js/main.6b2063a0.js"
   ]
 }
