@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Arpit Thool",
+  title: "Hi all, I'm Arpit",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+    "A passionate Software Engineer 🚀 with expertise in Java, Python, C# and a wide range of technologies, delivering secure innovative solutions and driving seamless user experiences."
+    ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1A9vk6raPirDqjD2OioCqbtzNmxncu5RL/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/arpitthool",
+  linkedin: "https://www.linkedin.com/in/arpitthool/",
+  email: "arpitthool@vt.edu",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +48,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "My skills",
+  // subTitle: "Passionate Full Stack Software Engineer with expertise in Java, Python, and a wide range of technologies, delivering innovative solutions and driving seamless user experiences.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Versatile skills in Java, Python, C++, Spring, React.js, and Flask, Django for building robust software applications."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Experienced in MySQL, MongoDB, and Redis for efficient data management."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Proficient in AWS, GCP, Docker, and Kubernetes for seamless application deployment and scalability."
     )
   ],
 
@@ -65,52 +65,154 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "C#",
+      fontAwesomeClassname: "fab fa-csharp"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-ts"
+    },
+    {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
+    },
+
+    // databases
+
+    {
+      skillName: "MySQL",
+      fontAwesomeClassname: "fab fa-database"
+    },
+
+    {
+      skillName: "NoSQl",
+      fontAwesomeClassname: "fab fa-database"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fab fa-database"
+    },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "fab fa-database"
+    },
+
+    // frameworks
+    {
+      skillName: "Spring",
+      fontAwesomeClassname: "fab fa-ts"
+    },
+    {
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fab fa-ts"
+    },
+    {
+      skillName: "FastAPI",
+      fontAwesomeClassname: "fab fa-ts"
+    },
+    {
+      skillName: ".NET",
+      fontAwesomeClassname: "fab fa-dotnet"
+    },
+    {
+      skillName: "Django",
+      fontAwesomeClassname: "fab fa-django"
+    },
+    {
+      skillName: "Flask",
+      fontAwesomeClassname: "fab fa-flask"
+    },
+    {
+      skillName: "Selenium",
+      fontAwesomeClassname: "fab fa-selenium"
+    },
+    {
+      skillName: "NodeJS",
+      fontAwesomeClassname: "fab fa-nodejs"
+    },
+    {
+      skillName: "VueJS",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
+      skillName: "AngularJS",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    
+    {
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+    
+    
+  //  other technologies
+    
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
+
+
+    {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fab fa-terraform"
+    },
+    {
+      skillName: "GCP",
+      fontAwesomeClassname: "fab fa-gcp"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fab fa-kubernetes"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "GitLab",
+      fontAwesomeClassname: "fab fa-gitlab"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Ubuntu",
+      fontAwesomeClassname: "fab fa-ubuntu"
+    },
+    {
+      skillName: "HTML",
+      fontAwesomeClassname: "fab fa-html"
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: "fab fa-css"
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
+    },
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -126,23 +228,34 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Virginia Tech",
+      logo: require("./assets/images/vtlogo.jpg"),
+      subHeader: "PhD in Computer Science",
+      duration: "August 2021 - 2025",
+      desc: "Conducted research in software engineering and security domain. Relevant Coursework : CS 5704 Software Engineering, CS 5604 Information Storage and Retrieval, CS 5560 Fundamentals of Information Security, CS 5014 Research Methods, CS 5914 Software Project Management, CS 6204 Advanced Topics in Security and Privacy, CS 5714 Usability Engineering.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
+    // {
+    //   schoolName: "Virginia Tech",
+    //   logo: require("./assets/images/vtlogo.jpg"),
+    //   subHeader: "Master of Science in Computer Science",
+    //   duration: "August 2021 - 2023",
+    //   desc: "Conducted research in software engineering and security domain. Relevant Coursework : CS 5704 Software Engineering, CS 5604 Information Storage and Retrieval, CS 5560 Fundamentals of Information Security, CS 5014 Research Methods, CS 5914 Software Project Management, CS 6204 Advanced Topics in Security and Privacy, CS 5714 Usability Engineering.",
+    //   // descBullets: [
+    //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    //   // ]
+    // },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Pune",
+      logo: require("./assets/images/sppulogo.png"),
+      subHeader: "Bachelor of Science in Computer Engineering",
+      duration: "August 2016 - April 2020",
+      desc: "Ranked top 10% in the program. Coursework : Data Structures & Algorithms, Object-Oriented Programming, Computer Graphics, Database Management Systems, Software Engineering, Project Management, Software Testing, Information Systems, Computer Networks, Operating Systems, Web Technology, Cyber Security, Cloud Computing, High-Performance Computing, Artificial Intelligence, Data Mining, Data Analytics, Machine Learning",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -150,7 +263,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -175,28 +288,63 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Virginia Tech",
+      companylogo: require("./assets/images/vtlogo.jpg"),
+      date: "August 2021 – Present",
+      desc: "SIS team in the division of IT at Virginia Tech",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed, implemented, tested and maintained software applications, writing clean Java code with version control and appropriate unit and functional tests.",
+        "Researched, learned and implemented new technologies for solving problems faced by stakeholders.",
+        "Designed and implemented a Java based software system that effectively communicated with ZAP to conduct thorough scans on web applications, leveraging API calls and proficiently processing JSON data.",
+        "Deployed an AWS distributed load testing instance through a configured template and designed intricate JMeter scripts to effectively conduct load testing of the login service using the AWS environment.",
+        "Created GitLab CI/CD pipeline using YAML  to automate testing using various test scenarios.",
+        "Designed and implemented a web app using Python Flask with SSO feature to test the CAS login service. Deployed the app using Gunicorn on a Red-Hat server on a private network",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer Intern",
+      company: "Lutron",
+      companylogo: require("./assets/images/lutronlogo.webp"),
+      date: "May 2022 – August 2022",
+      desc: "Interned at Lutron for three months as a software engineer",
+      descBullets: [
+        "Collaborated with tech lead, product owner and senior engineers to understand requirements, create UML diagrams and to create the documentation for the system architecture.",
+        "Spearheaded design, development and deployment of a large scale Java Spring application used to migrate from manual management of a Cloud resource to Terraform, slashing manual process time by 50%.",
+        "Wrote CI/CD pipeline script in Groovy to connect the BitBucket repository to the Terraform Provider which in turn performed corresponding changes on Lutron’s Artifactory instance.",
+        "Automated a task to decompress and aggregate files fetched from any online Lutron system by implementing the feature in Lutron’s Tech Support Tool using C# and .NET.",
+        "Extended functionality of Lutron’s System Diagnostics app to enable debug logging for a connected system using TypeScript and React.",
+        
+      ]
+    },
+    {
+      role: "Associate Software Engineer",
+      company: "Acquia",
+      companylogo: require("./assets/images/acquialogo.jpg"),
+      date: "September 2020 – July 2021",
+      desc: "Worked in the Marketing Cloud team on the products : 'Campaign Factory' and 'Campaign Studio'",
+      descBullets: [
+        "Designed and implemented new product features and maintained and enhanced existing ones by writing clean documented code,  writing unit tests and participating in code reviews.",
+        "Collaborated with the product owner and senior engineers to understand the product and discuss innovative solutions to add new functionality and increase system efficiency.",
+        "Modeled and implemented an efficient solution to synchronize the creation, modification and deletion of an asset in the parent template to children templates, saving the client time spent on duplicating templates.",
+        "Worked closely with the QA and the UX teams to ensure the features are built according to the requirements of the customers using VueJS, Bootstrap, HTML and CSS.",
+        "Mentored 3 new college graduates joining Acquia. Conducting weekly progress meetings and provided guidance on revising and focusing on key concepts and technologies for a seamless transition to their respective projects.",
+
+      ]
+
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Technogong",
+      // companylogo: require("./assets/images/none.jpg"),
+      date: "September 2019 – March 2020",
+      desc: "Worked in a small startup aiming to digitize hotel and restaurant management",
+      descBullets: [
+        "Designed and developed ‘Bizhawk’, an mobile application for managing day-to-day activities in a restaurant. Saved on estimated costs by delivering the project ahead of time with near zero-defect delivery.",
+        "Created Wireframes to emulate user activities. Implemented app activities in high-quality Java code, wrote PHP scripts to run on a LAMP server to implement product functionalities.",
+        "Created database queries to be used by the backend to communicate with the MySQL database.",
+        
+      ]
+
     }
   ]
 };
@@ -206,35 +354,88 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Personal Projects",
+  subtitle: "SOME COOL TECH I CREATED",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/blogger.png"),
+      projectName: "Blogger",
+      projectDesc: "Developed a Blogger web app using TypeScript, AdonisJS, Edge templates & PostgreSQL. Employed the MVC software pattern to deisgn the app. A guest is able to read existing blogs and sign up for an account. A logged in user can create new blogs, delete their own blogs and also like/dislike the blogs of their choice. Created migrations, schema Models and connected them with relationships for efficient data processing. Deployed the app on an AWS EC2 Ubuntu Instance with Elastic IP for efficient and scalable performance.",
       footerLink: [
         {
+          name: "Visit Github Repository",
+          url: "https://github.com/arpitthool/blogger-app"
+        },
+        {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://18.213.244.58:3333/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/goLLM.png"),
+      projectName: "GoLLM (ChatGPT Clone)",
+      projectDesc: "Used Ollama to deploy a llama-2 model on a AWS EC2 instance. Built a web app to interact with the LLM model using Go and Bootstrap for UI.",
+      footerLink: [
+        {
+          name: "Github Link with Demo",
+          url: "https://github.com/arpitthool/GoLLM"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/taskmanager.png"),
+      projectName: "Task Manager",
+      projectDesc: "Developed a Task Manager web app using FARM stack: Python, FastAPI, JavaScript, React and MongoDB.Built a RESTful API backend and a user-friendly frontend with seamless communication through Axios. Utilized MongoDB as the NoSQL database, connected to the backend using the motor driver. Successfully deployed the app on an AWS EC2 Ubuntu Instance with nginx server for efficient and scalable performance.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://54.175.134.26:3000/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/traveldiaryplanner.png"),
+      projectName: "Travel Diary & Planner",
+      projectDesc: "Hosted a Java web application on an AWS instance using Apache server for currency conversion, hotel availability, visualizing COVID-19 statistics and weather lookup at different locations with the help of REST APIs using JSON data. An authenticated user is able to store and view various types of files just like an online diary. Used Java Jakarta EE web framework and implemented the database using MySQL. Front-end was created using Prime Server Faces framework.",
+      footerLink: [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/arpitthool/Travel-Diary-Planner"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/carmap.webp"),
+      projectName: "Car Mapping",
+      projectDesc: "Hosted a flask web app on Heroku to solve a competitive coding task, the database was implemented using MongoDB. Built a CICD pipeline using a Jenkins server, and GitHub webhooks to automate testing and deployment. Collaborated within a team of three people and followed the Agile Process Model for the development process.",
+      footerLink: [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/arpitthool/jenkins-git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/amazonclone.png"),
+      projectName: "Amazon Clone",
+      projectDesc: "A React web app having a few features of the Amazon Website. Hosted React frontend on Firebase, with backend implemented with Express web framework, hosted using Google Cloud's Cloud Functions. Employed Event Driven Architecture using React Context API or Redux. Added feature to work with real-time data residing in a firestore NoSQL database hosted on Firebase. Implemented user login and register functionality using the firebase auth module. Added support for real-time card payments using Stripe.",
+      footerLink: [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/arpitthool/amazon-clone"
+        },
+        {
+          name: "Visit Website",
+          url: "https://challenge-3742b.web.app/"
         }
       ]
     }
@@ -300,7 +501,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +525,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +544,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +557,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  // number: "+92-0000000000",
+  email_address: "arpitthool@vt.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
