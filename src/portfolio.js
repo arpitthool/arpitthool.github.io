@@ -23,7 +23,7 @@ const greeting = {
   username: "Arpit Thool",
   title: "Hi all, I'm Arpit",
   subTitle: emoji(
-    "A passionate Software Engineer 🚀 with expertise in Java, Python, C# and a wide range of technologies, delivering secure innovative solutions and driving seamless user experiences."
+    "I am a PhD candidate in Computer Science at Virginia Tech, where I also earned my master’s degree. My research focuses on integrating AI-driven tools into software security workflows, including developing and fine-tuning large language models (LLMs) to generate actionable security insights. I completed two research internships at Adobe — one in the Firefly organization and another in the research organization — where I worked on applied AI and software security projects. With 4 years of industry experience spanning frontend and backend development, DevOps, and security engineering, I bring both practical and research perspectives to my work. I have also served as a Software Engineer on the Security and Identity Services team at Virginia Tech (Blacksburg, VA), contributing to critical security automation initiatives. Previously, I interned at Lutron (Coopersburg, PA) as a Software Engineer and worked full-time as an Associate Software Engineer at Acquia, where I gained extensive hands-on experience in building and deploying scalable applications."
     ),
   resumeLink:
     "https://drive.google.com/file/d/1A9vk6raPirDqjD2OioCqbtzNmxncu5RL/view?usp=sharing", // Set to empty to hide the button
@@ -555,29 +555,21 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Research Work 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "My publications and research work",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Securing agile: Assessing the impact of security activities on agile development",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Authors: Arpit Thool, Chris Brown. Published in Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (EASE June 2024).",
+      // image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Research Publication",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Publication",
+          url: "https://dl.acm.org/doi/abs/10.1145/3661167.3661280"
         }
       ]
     },
@@ -615,25 +607,31 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Research Work",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "My research publications",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      title: "[EASE 2024] Securing agile: Assessing the impact of security activities on agile development",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Authors: Arpit Thool, Chris Brown. Published in Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (EASE 2024).",
+      url: "https://dl.acm.org/doi/abs/10.1145/3661167.3661280",
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://ieeexplore.ieee.org/abstract/document/10714552",
+      title: "[VL/HCC 2024] Harnessing the Power of LLMs: LLM Summarization for Human-Centric DAST Reports",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Authors: Arpit Thool, Chris Brown. Published in IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC 2024)."
+    },
+    {
+      url: "https://arxiv.org/pdf/2503.21947",
+      title: "[ArXiv 2025] Integrating DAST in Kanban and CI/CD: A Real World Security Case Study",
+      description:
+        "Authors: Arpit Thool, Chris Brown. Published in ArXiv."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
