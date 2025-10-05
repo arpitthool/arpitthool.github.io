@@ -232,7 +232,18 @@ const educationInfo = {
       logo: require("./assets/images/vtlogo.jpg"),
       subHeader: "PhD in Computer Science",
       duration: "August 2021 - 2025",
-      desc: "Conducted research in software engineering and security domain. Relevant Coursework : CS 5704 Software Engineering, CS 5604 Information Storage and Retrieval, CS 5560 Fundamentals of Information Security, CS 5014 Research Methods, CS 5914 Software Project Management, CS 6204 Advanced Topics in Security and Privacy, CS 5714 Usability Engineering.",
+      desc: "My research focuses on integrating and evaluating security practices within Agile software development workflows. This involves developing AI tools and techniques to enhance security practices, conducting empirical studies to assess the effectiveness of integrating security practices in Agile software development. ",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
+      schoolName: "Virginia Tech",
+      logo: require("./assets/images/vtlogo.jpg"),
+      subHeader: "Master of Science in Computer Science",
+      duration: "August 2021 - May 2024",
+      desc: " Relevant Coursework : CS 5704 Software Engineering, CS 5604 Information Storage and Retrieval, CS 5560 Fundamentals of Information Security, CS 5014 Research Methods, CS 5914 Software Project Management, CS 6204 Advanced Topics in Security and Privacy, CS 5714 Usability Engineering.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -287,19 +298,57 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Research Engineer Intern",
+      company: "Adobe",
+      companylogo: require("./assets/images/adobe-logo.png"),
+      date: "May 2025 – August 2025",
+      desc: "Evaluation team in the Firefly division at Adobe",
+      descBullets: [
+        "Contributing to Eval Hub, Adobe’s internal platform for evaluating and benchmarking AI models used across product teams.",
+
+        "Migrated Eval Hub’s frontend, backend services, and MongoDB infrastructure from East Coast to West Coast, reducing latency and improving performance for the primary user base.",
+
+        "Optimized application performance by implementing Redis-based caching system for critical API endpoints, reducing leaderboard and evaluation page load times by 90%+ through strategic caching, automatic cache invalidation on data mutations, and seamless integration with existing FastAPI backend and MongoDB database infrastructure",
+
+        "Collaborated with the Eval Strategy team to design the system architecture and UX for study-based validation, implementing efficient MongoDB queries, robust API endpoints, and backend services to embed gold-standard questions in studies.",   ]
+    },
+    {
       role: "Software Engineer",
       company: "Virginia Tech",
       companylogo: require("./assets/images/vtlogo.jpg"),
-      date: "August 2021 – Present",
+      date: "August 2021 – May 2025",
       desc: "SIS team in the division of IT at Virginia Tech",
       descBullets: [
-        "Designed, implemented, tested and maintained software applications, writing clean Java code with version control and appropriate unit and functional tests.",
-        "Researched, learned and implemented new technologies for solving problems faced by stakeholders.",
-        "Designed and implemented a Java based software system that effectively communicated with ZAP to conduct thorough scans on web applications, leveraging API calls and proficiently processing JSON data.",
-        "Deployed an AWS distributed load testing instance through a configured template and designed intricate JMeter scripts to effectively conduct load testing of the login service using the AWS environment.",
-        "Created GitLab CI/CD pipeline using YAML  to automate testing using various test scenarios.",
-        "Designed and implemented a web app using Python Flask with SSO feature to test the CAS login service. Deployed the app using Gunicorn on a Red-Hat server on a private network",
+        "Designed, implemented, tested, and maintained software applications, writing clean Java code with version control and appropriate unit and functional tests.",
+
+        "Designed and implemented a Java-based software system that effectively communicated with ZAP to conduct thorough scans on web applications, leveraging API calls and proficiently processing JSON data.",
+
+        "Deployed an AWS distributed load testing instance through a configured template and designed intricate JMeter scripts to effectively conduct load testing of the login service using the AWS environment. ( This was done at the start of every semester, before the first day of classes.)",
+
+        "Designed & implemented a Python(Flask) web app with SSO feature to test the CAS login service. Using Decorators, implemented a file hosting feature which could be managed by whitelisted users. Automated the deployment by creating a CI/CD pipeline to host the app on a RedHat server on a private network.",
+
+        // "Enhanced the Splunk dashboard to incorporate new logging data from Duo by creating visualizations for user lockouts, blocked anomalous pushes, and fraud user attempts.",
+
+        "Spearheaded the design and implementation of a Python-Flask-middleware security solution between Splunk and Grouper, architecting automated fraud detection workflows to process real-time alerts and manage user access controls, reducinf the fraud recognition time by 90%.",
+
+        // "Wrote API wrappers (User, Role, AWS Cloud S3) to stimulate testing for a new entity (student, teacher, employee) joining the University IAM system.",
       ]
+    },
+    {
+      role: "Research Engineer Intern",
+      company: "Adobe",
+      companylogo: require("./assets/images/adobe-logo.png"),
+      date: "May 2024 – August 2024",
+      desc: "RED team in the Research org at Virginia Tech",
+      descBullets: [
+        "Worked in the RED 🟥 (Research Engineering and Design) lab on the Stardust app to build its image analysis pipeline using a node-based graph framework. Project Stardust in an object-based image editor powered by AI and Adobe Firefly. Stardust detects objects like humans can, enabling anyone to edit and create.",
+
+        "The new pipeline resulted in better performance, flexibility, and deployment, allowing researchers to rapidly iterate and experiment to build new 2D and 3D features.",
+
+        "Implemented a 3D feature to move a selected object within a 2D image in a perspective-aware manner, resizing and reordering layers as needed.",
+
+        "Wrote quality TypeScript code in the AdonisJS framework using the MVC design pattern. Undertook system design and UX decisions to optimize the system performance and enhance usability.",
+     ]
     },
     {
       role: "Software Engineer Intern",
@@ -364,18 +413,77 @@ const bigProjects = {
   subtitle: "SOME COOL TECH I CREATED",
   projects: [
     {
+      image: require("./assets/images/perspective-transform.png"),
+      projectName: "Perspective Transformation",
+      projectDesc: "A C++ application for applying top-view perspectice transformation to a selected region in a given video using OpenCV.",
+      footerLink: [
+        {
+          name: "Visit Github Repository (with demo video)",
+          url: "https://github.com/arpitthool/perspective-transformation"
+        },
+      ]
+    },
+    {
+      image: require("./assets/images/image.png"),
+      projectName: "Image Transform",
+      projectDesc: "A C++ application for editing images using OpenCV having features to: 1. apply grayscale filter, 2. increase/decrease brightness\n3. increase/decrease contrast, 4. apply blur, 5. detect edges, 6. save the newly created image",
+      footerLink: [
+        {
+          name: "Visit Github Repository (with demo video)",
+          url: "https://github.com/arpitthool/image-transform"
+        },
+      ]
+    },
+    {
+      image: require("./assets/images/cutout.png"),
+      projectName: "Cutout Tool",
+      projectDesc: "Developed a Cutout Tool app using C++ and OpenCV, to interactively select an object in an image, generate a clean foreground mask, and export an RGBA PNG (alpha from the mask)",
+      footerLink: [
+        {
+          name: "Visit Github Repository (with demo video)",
+          url: "https://github.com/arpitthool/cutout-tool"
+        },
+      ]
+    },
+    {
+      image: require("./assets/images/face-detect.png"),
+      projectName: "Face-Detection",
+      projectDesc: "Developed a Face Detection app using C++ and OpenCV. The app will display the number of faces detected in the image and the bounding boxes around the faces. Implemented the functionality to put different hat images on the faces detected in the image.",
+      footerLink: [
+        {
+          name: "Visit Github Repository (with demo video)",
+          url: "https://github.com/arpitthool/face-detection"
+        },
+      ]
+    },
+    {
+      image: require("./assets/images/ZAP-LLM.jpg"),
+      projectName: "SafeAIMerge",
+      projectDesc: "Developed a GitHub-Actions based CI/CD Security Scanner that scans web apps with ZAP, summarizes security findings using an LLM API, and posts them as comments on pull requests, offering a developer-friendly setup with minimal configuration.",
+      footerLink: [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/arpitthool/SafeAIMerge"
+        },
+        {
+          name: "YouTube Demo Video",
+          url: "https://youtu.be/fGJrTM1of38?si=YBqjCBlEq7PVd6NE"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/blogger.png"),
       projectName: "Blogger",
       projectDesc: "Developed a Blogger web app using TypeScript, AdonisJS, Edge templates & PostgreSQL. Employed the MVC software pattern to deisgn the app. A guest is able to read existing blogs and sign up for an account. A logged in user can create new blogs, delete their own blogs and also like/dislike the blogs of their choice. Created migrations, schema Models and connected them with relationships for efficient data processing. Deployed the app on an AWS EC2 Ubuntu Instance with Elastic IP for efficient and scalable performance.",
       footerLink: [
         {
-          name: "Visit Github Repository",
+          name: "Visit Github Repository (with demo video)",
           url: "https://github.com/arpitthool/blogger-app"
         },
-        {
-          name: "Visit Website",
-          url: "http://18.213.244.58:3333/"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "http://18.213.244.58:3333/"
+        // }
       ]
     },
     {
@@ -384,7 +492,7 @@ const bigProjects = {
       projectDesc: "Used Ollama to deploy a llama-2 model on a AWS EC2 instance. Built a web app to interact with the LLM model using Go and Bootstrap for UI.",
       footerLink: [
         {
-          name: "Github Link with Demo",
+          name: "Github Link with Demo (with demo video)",
           url: "https://github.com/arpitthool/GoLLM"
         }
         //  you can add extra buttons here.
@@ -396,8 +504,8 @@ const bigProjects = {
       projectDesc: "Developed a Task Manager web app using FARM stack: Python, FastAPI, JavaScript, React and MongoDB.Built a RESTful API backend and a user-friendly frontend with seamless communication through Axios. Utilized MongoDB as the NoSQL database, connected to the backend using the motor driver. Successfully deployed the app on an AWS EC2 Ubuntu Instance with nginx server for efficient and scalable performance.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://54.175.134.26:3000/"
+          name: "Visit Github Repository",
+          url: "https://github.com/arpitthool/farmstack_taskmanger"
         }
         //  you can add extra buttons here.
       ]
