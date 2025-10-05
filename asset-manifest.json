@@ -1,16 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.3cf13eba.css",
-    "main.js": "/static/js/main.e058535d.js",
+    "main.js": "/static/js/main.d85e9bc2.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.8975dc33.chunk.js": "/static/js/64.8975dc33.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.8972eab4.chunk.js": "/static/js/769.8972eab4.chunk.js",
+    "static/media/cutout.png": "/static/media/cutout.816075e2867568646d36.png",
+    "static/media/image.png": "/static/media/image.434dd45266a3bbaf8e0e.png",
+    "static/media/face-detect.png": "/static/media/face-detect.8515d7b7dda45ac487cd.png",
+    "static/media/perspective-transform.png": "/static/media/perspective-transform.38e33f0e2eaffb8b63a3.png",
     "static/media/amazonclone.png": "/static/media/amazonclone.b5a33536fb6e159cdc4d.png",
     "static/media/traveldiaryplanner.png": "/static/media/traveldiaryplanner.29c0d39ee3431d839bb9.png",
     "static/media/blogger.png": "/static/media/blogger.782460dcfce52a8880f2.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/goLLM.png": "/static/media/goLLM.1260849f26824200009e.png",
+    "static/media/ZAP-LLM.jpg": "/static/media/ZAP-LLM.e6e26d7bbf6cba33dec9.jpg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/taskmanager.png": "/static/media/taskmanager.f536294ed8b732e2b3f4.png",
     "static/media/sppulogo.png": "/static/media/sppulogo.89cf823535405edc6fcd.png",
@@ -21,6 +26,7 @@
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/carmap.webp": "/static/media/carmap.a02f29d1f5b9196fc136.webp",
     "static/media/acquialogo.jpg": "/static/media/acquialogo.e978ad91d2b46e92c0b7.jpg",
+    "static/media/adobe-logo.png": "/static/media/adobe-logo.1c5802b4b93dda7de227.png",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/lutronlogo.webp": "/static/media/lutronlogo.8975480293f3773fb361.webp",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
@@ -28,7 +34,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.3cf13eba.css.map": "/static/css/main.3cf13eba.css.map",
-    "main.e058535d.js.map": "/static/js/main.e058535d.js.map",
+    "main.d85e9bc2.js.map": "/static/js/main.d85e9bc2.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.8975dc33.chunk.js.map": "/static/js/64.8975dc33.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -36,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.3cf13eba.css",
-    "static/js/main.e058535d.js"
+    "static/js/main.d85e9bc2.js"
   ]
 }
