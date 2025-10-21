@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3cf13eba.css",
-    "main.js": "/static/js/main.d1be6cf3.js",
+    "main.js": "/static/js/main.5970c881.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.8975dc33.chunk.js": "/static/js/64.8975dc33.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -11,11 +11,15 @@
     "static/media/face-detect.png": "/static/media/face-detect.8515d7b7dda45ac487cd.png",
     "static/media/perspective-transform.png": "/static/media/perspective-transform.38e33f0e2eaffb8b63a3.png",
     "static/media/amazonclone.png": "/static/media/amazonclone.b5a33536fb6e159cdc4d.png",
+    "static/media/Archive.png": "/static/media/Archive.51392567a5722417fde8.png",
     "static/media/traveldiaryplanner.png": "/static/media/traveldiaryplanner.29c0d39ee3431d839bb9.png",
+    "static/media/EASE-24.png": "/static/media/EASE-24.3163d2180189d9fae1e9.png",
     "static/media/blogger.png": "/static/media/blogger.782460dcfce52a8880f2.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/goLLM.png": "/static/media/goLLM.1260849f26824200009e.png",
+    "static/media/VLHCC-24.png": "/static/media/VLHCC-24.842d2615db89e7f02948.png",
     "static/media/ZAP-LLM.jpg": "/static/media/ZAP-LLM.e6e26d7bbf6cba33dec9.jpg",
+    "static/media/AI-Agent.png": "/static/media/AI-Agent.dabd111e164bc88d055e.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/taskmanager.png": "/static/media/taskmanager.f536294ed8b732e2b3f4.png",
     "static/media/sppulogo.png": "/static/media/sppulogo.89cf823535405edc6fcd.png",
@@ -23,17 +27,15 @@
     "static/media/vtlogo.jpg": "/static/media/vtlogo.5b829d3facc71a49e87c.jpg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/carmap.webp": "/static/media/carmap.a02f29d1f5b9196fc136.webp",
     "static/media/acquialogo.jpg": "/static/media/acquialogo.e978ad91d2b46e92c0b7.jpg",
     "static/media/adobe-logo.png": "/static/media/adobe-logo.1c5802b4b93dda7de227.png",
     "static/media/lutronlogo.webp": "/static/media/lutronlogo.8975480293f3773fb361.webp",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.3cf13eba.css.map": "/static/css/main.3cf13eba.css.map",
-    "main.d1be6cf3.js.map": "/static/js/main.d1be6cf3.js.map",
+    "main.5970c881.js.map": "/static/js/main.5970c881.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.8975dc33.chunk.js.map": "/static/js/64.8975dc33.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -41,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.3cf13eba.css",
-    "static/js/main.d1be6cf3.js"
+    "static/js/main.5970c881.js"
   ]
 }
