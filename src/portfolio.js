@@ -23,7 +23,7 @@ const greeting = {
   username: "Arpit Thool",
   title: "Hi all, I'm Arpit",
   subTitle: emoji(
-    "I am a PhD candidate in Computer Science at Virginia Tech, where I also earned my master’s degree. My research focuses on integrating AI-driven tools into software security workflows, including developing and fine-tuning large language models (LLMs) to generate actionable security insights. I completed two research internships at Adobe — one in the Firefly organization and another in the research organization — where I worked on applied AI and software security projects. With 4 years of industry experience spanning frontend and backend development, DevOps, and security engineering, I bring both practical and research perspectives to my work. I have also served as a Software Engineer on the Security and Identity Services team at Virginia Tech (Blacksburg, VA), contributing to critical security automation initiatives. Previously, I interned at Lutron (Coopersburg, PA) as a Software Engineer and worked full-time as an Associate Software Engineer at Acquia, where I gained extensive hands-on experience in building and deploying scalable applications."
+    "I am a PhD candidate in Computer Science at Virginia Tech, where I also earned my master’s degree. My research focuses on integrating AI-driven tools into software security workflows, including developing and fine-tuning large language models (LLMs) to generate actionable security insights. I completed two research internships at Adobe — one in the Firefly organization and another in the research organization — where I worked on applied AI and innovative software projects. With 4 years of industry experience spanning frontend and backend development, DevOps, and security engineering, I bring both practical and research perspectives to my work. I have also served as a Software Engineer on the Security and Identity Services team at Virginia Tech (Blacksburg, VA), contributing to critical security automation initiatives. Previously, I interned at Lutron (Coopersburg, PA) as a Software Engineer and worked full-time as an Associate Software Engineer at Acquia, where I gained extensive hands-on experience in building and deploying scalable applications."
     ),
   resumeLink:
     "https://drive.google.com/file/d/1A9vk6raPirDqjD2OioCqbtzNmxncu5RL/view?usp=sharing", // Set to empty to hide the button
@@ -413,6 +413,17 @@ const bigProjects = {
   subtitle: "SOME COOL TECH I CREATED",
   projects: [
     {
+      image: require("./assets/images/AI-Agent.png"),
+      projectName: "AI Agent on Hugging Face",
+      projectDesc: "Deployed on Hugging Face : A text-based LLM chat app using the lightweight Qwen model, with an agentic backend that can fetch local time by location, and search the web based on requirements via tool integrations.",
+      footerLink: [
+        {
+          name: "Hugging Face Agent link",
+          url: "https://huggingface.co/spaces/arpitthool/My_First_Agent"
+        },
+      ]
+    },
+    {
       image: require("./assets/images/perspective-transform.png"),
       projectName: "Perspective Transformation",
       projectDesc: "A C++ application for applying top-view perspectice transformation to a selected region in a given video using OpenCV.",
@@ -564,44 +575,43 @@ const achievementSection = {
       title: "Securing agile: Assessing the impact of security activities on agile development",
       subtitle:
         "Authors: Arpit Thool, Chris Brown. Published in Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (EASE June 2024).",
-      // image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Research Publication",
+      image: require("./assets/images/EASE-24.png"),
+      imageAlt: "Research Publication Results Image",
       footerLink: [
         {
-          name: "View Publication",
+          name: "View Research Paper",
           url: "https://dl.acm.org/doi/abs/10.1145/3661167.3661280"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Harnessing the Power of LLMs: LLM Summarization for Human-Centric DAST Reports",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Authors: Arpit Thool, Chris Brown. Published in IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC 2024).",
+      image: require("./assets/images/VLHCC-24.png"),
+      imageAlt: "Research Publication Results Image",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Research Paper",
+          url: "https://ieeexplore.ieee.org/abstract/document/10714552"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Integrating DAST in Kanban and CI/CD: A Real World Security Case Study",
+      subtitle: "Authors: Arpit Thool, Chris Brown. Published in ArXiv.",
+      image: require("./assets/images/Archive.png"),
+      imageAlt: "Research Results",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Archive submission",
+          url: "https://arxiv.org/pdf/2503.21947"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -631,7 +641,7 @@ const blogSection = {
         "Authors: Arpit Thool, Chris Brown. Published in ArXiv."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
