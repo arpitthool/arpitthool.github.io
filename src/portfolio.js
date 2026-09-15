@@ -23,7 +23,7 @@ const greeting = {
   username: "Arpit Thool",
   title: "Hi all, I'm Arpit",
   subTitle: emoji(
-    "I am a PhD candidate in Computer Science at Virginia Tech, where I also earned my master’s degree. My research focuses on integrating AI-driven tools into software security workflows, including developing and fine-tuning large language models (LLMs) to generate actionable security insights. I completed two research internships at Adobe — one in the Firefly organization and another in the research organization — where I worked on applied AI and innovative software projects. With 4 years of industry experience spanning frontend and backend development, DevOps, and security engineering, I bring both practical and research perspectives to my work. I have also served as a Software Engineer on the Security and Identity Services team at Virginia Tech (Blacksburg, VA), contributing to critical security automation initiatives. Previously, I interned at Lutron (Coopersburg, PA) as a Software Engineer and worked full-time as an Associate Software Engineer at Acquia, where I gained extensive hands-on experience in building and deploying scalable applications."
+    "I recently completed my PhD in Computer Science at Virginia Tech, advised by Dr. Chris Brown, where I also earned my master’s degree. My doctoral research focused on integrating AI-driven tools into software security workflows, including developing and fine-tuning large language models (LLMs) to generate actionable security insights. I am now a Research Scientist at Adobe’s Research Engineering and Design (RED) lab, where I advance AI-powered creative tools through applied research in video, depth estimation, and generative media. Earlier, I completed two research internships at Adobe — in the Firefly and Research organizations — and I bring over 4 years of industry experience spanning frontend and backend development, DevOps, and security engineering. I have also served as a Software Engineer on the Security and Identity Services team at Virginia Tech (Blacksburg, VA), and previously interned at Lutron (Coopersburg, PA) and worked full-time as an Associate Software Engineer at Acquia."
     ),
   resumeLink:
     "https://drive.google.com/file/d/1A9vk6raPirDqjD2OioCqbtzNmxncu5RL/view?usp=sharing", // Set to empty to hide the button
@@ -231,8 +231,8 @@ const educationInfo = {
       schoolName: "Virginia Tech",
       logo: require("./assets/images/vtlogo.jpg"),
       subHeader: "PhD in Computer Science",
-      duration: "August 2021 - 2025",
-      desc: "My research focuses on integrating and evaluating security practices within Agile software development workflows. This involves developing AI tools and techniques to enhance security practices, conducting empirical studies to assess the effectiveness of integrating security practices in Agile software development. ",
+      duration: "August 2021 - January 2026",
+      desc: "Completed my PhD advised by Dr. Chris Brown. My research integrated and evaluated security practices within Agile software development workflows — developing AI tools and techniques to strengthen security practices and conducting empirical studies to assess the effectiveness of integrating security into Agile development.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -298,6 +298,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Research Scientist",
+      company: "Adobe",
+      companylogo: require("./assets/images/adobe-logo.png"),
+      date: "February 2026 – Present",
+      desc: "Research Engineering and Design (RED) lab at Adobe",
+      descBullets: [
+        "Advancing AI-powered creative tools through applied research in video, depth estimation, and generative media."
+      ]
+    },
+    {
       role: "Research Engineer Intern",
       company: "Adobe",
       companylogo: require("./assets/images/adobe-logo.png"),
@@ -339,7 +349,7 @@ const workExperiences = {
       company: "Adobe",
       companylogo: require("./assets/images/adobe-logo.png"),
       date: "May 2024 – August 2024",
-      desc: "RED team in the Research org at Virginia Tech",
+      desc: "RED team in the Research org at Adobe",
       descBullets: [
         "Worked in the RED 🟥 (Research Engineering and Design) lab on the Stardust app to build its image analysis pipeline using a node-based graph framework. Project Stardust in an object-based image editor powered by AI and Adobe Firefly. Stardust detects objects like humans can, enabling anyone to edit and create.",
 
