@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/arpitthool",
   linkedin: "https://www.linkedin.com/in/arpitthool/",
-  email: "arpitthool@vt.edu",
+  email: "athool@adobe.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -582,15 +582,41 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Securing agile: Assessing the impact of security activities on agile development",
+      title: "Integrating Log-Based Security Analytics in Agile Workflows: A Real-World Experience Report",
       subtitle:
-        "Authors: Arpit Thool, Chris Brown. Published in Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (EASE June 2024).",
-      image: require("./assets/images/EASE-24.png"),
-      imageAlt: "Research Publication Results Image",
+        "Authors: Arpit Thool, Chris Brown. Published on arXiv (2026).",
+      image: require("./assets/images/Archive.png"), // TODO: replace with a dedicated image
+      imageAlt: "Research Publication Image (placeholder)",
       footerLink: [
         {
-          name: "View Research Paper",
-          url: "https://dl.acm.org/doi/abs/10.1145/3661167.3661280"
+          name: "View Paper (arXiv)",
+          url: "https://arxiv.org/abs/2605.00352"
+        }
+      ]
+    },
+    {
+      title: "SafeAIMerge: A Tool for Integrating DAST and LLM-Generated Security Feedback into GitHub Actions Workflows",
+      subtitle:
+        "Authors: Arpit Thool, J. Smith, Chris Brown. Published in the Proceedings of the 2026 Secure Development Conference (SecDev 2026).",
+      image: require("./assets/images/ZAP-LLM.jpg"), // TODO: replace with a dedicated image
+      imageAlt: "SafeAIMerge Tool Image (placeholder)",
+      footerLink: [
+        {
+          name: "View Tool (GitHub)",
+          url: "https://github.com/arpitthool/SafeAIMerge"
+        }
+      ]
+    },
+    {
+      title: "Practitioner Perspectives of DAST Integration in Agile Development Workflows: An Experience Report",
+      subtitle:
+        "Authors: Arpit Thool, Chris Brown. Published in the Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE 2026, Industry Track).",
+      image: require("./assets/images/Archive.png"), // TODO: replace with a dedicated image
+      imageAlt: "Research Publication Image (placeholder)",
+      footerLink: [
+        {
+          name: "View Preprint (arXiv)",
+          url: "https://arxiv.org/abs/2503.21947"
         }
       ]
     },
@@ -607,16 +633,29 @@ const achievementSection = {
         }
       ]
     },
-
     {
-      title: "Integrating DAST in Kanban and CI/CD: A Real World Security Case Study",
-      subtitle: "Authors: Arpit Thool, Chris Brown. Published in ArXiv.",
-      image: require("./assets/images/Archive.png"),
-      imageAlt: "Research Results",
+      title: "Securing agile: Assessing the impact of security activities on agile development",
+      subtitle:
+        "Authors: Arpit Thool, Chris Brown. Published in Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (EASE June 2024).",
+      image: require("./assets/images/EASE-24.png"),
+      imageAlt: "Research Publication Results Image",
       footerLink: [
         {
-          name: "Archive submission",
-          url: "https://arxiv.org/pdf/2503.21947"
+          name: "View Research Paper",
+          url: "https://dl.acm.org/doi/abs/10.1145/3661167.3661280"
+        }
+      ]
+    },
+    {
+      title: "Farming of Primes: An algorithm to cultivate primes from first known N-primes",
+      subtitle:
+        "Authors: Arpit Thool, Uday Thool. Published in the International Journal of Advanced Engineering and Management (IJAEM), 2020.",
+      image: require("./assets/images/Archive.png"), // TODO: replace with a dedicated image
+      imageAlt: "Research Publication Image (placeholder)",
+      footerLink: [
+        {
+          name: "View Paper",
+          url: "https://www.researchgate.net/publication/370872942_Farming_of_Primes_An_algorithm_to_cultivate_primes_from_first_known_N-primes"
         }
       ]
     }
@@ -633,10 +672,22 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      title: "[EASE 2024] Securing agile: Assessing the impact of security activities on agile development",
+      url: "https://arxiv.org/abs/2605.00352",
+      title: "[arXiv 2026] Integrating Log-Based Security Analytics in Agile Workflows: A Real-World Experience Report",
       description:
-        "Authors: Arpit Thool, Chris Brown. Published in Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (EASE 2024).",
-      url: "https://dl.acm.org/doi/abs/10.1145/3661167.3661280",
+        "Authors: Arpit Thool, Chris Brown. Published on arXiv (2026)."
+    },
+    {
+      url: "https://github.com/arpitthool/SafeAIMerge",
+      title: "[SecDev 2026] SafeAIMerge: A Tool for Integrating DAST and LLM-Generated Security Feedback into GitHub Actions Workflows",
+      description:
+        "Authors: Arpit Thool, J. Smith, Chris Brown. Published in the Proceedings of the 2026 Secure Development Conference (SecDev 2026)."
+    },
+    {
+      url: "https://arxiv.org/abs/2503.21947",
+      title: "[FSE 2026] Practitioner Perspectives of DAST Integration in Agile Development Workflows: An Experience Report",
+      description:
+        "Authors: Arpit Thool, Chris Brown. Published in the Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE 2026, Industry Track)."
     },
     {
       url: "https://ieeexplore.ieee.org/abstract/document/10714552",
@@ -645,10 +696,16 @@ const blogSection = {
         "Authors: Arpit Thool, Chris Brown. Published in IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC 2024)."
     },
     {
-      url: "https://arxiv.org/pdf/2503.21947",
-      title: "[ArXiv 2025] Integrating DAST in Kanban and CI/CD: A Real World Security Case Study",
+      title: "[EASE 2024] Securing agile: Assessing the impact of security activities on agile development",
       description:
-        "Authors: Arpit Thool, Chris Brown. Published in ArXiv."
+        "Authors: Arpit Thool, Chris Brown. Published in Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (EASE 2024).",
+      url: "https://dl.acm.org/doi/abs/10.1145/3661167.3661280"
+    },
+    {
+      url: "https://www.researchgate.net/publication/370872942_Farming_of_Primes_An_algorithm_to_cultivate_primes_from_first_known_N-primes",
+      title: "[IJAEM 2020] Farming of Primes: An algorithm to cultivate primes from first known N-primes",
+      description:
+        "Authors: Arpit Thool, Uday Thool. Published in the International Journal of Advanced Engineering and Management (IJAEM), 2020."
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -691,7 +748,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+92-0000000000",
-  email_address: "arpitthool@vt.edu"
+  email_address: "athool@adobe.com"
 };
 
 // Twitter Section
