@@ -1,0 +1,125 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Links */
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Keep the page light regardless of the OS/browser dark-mode preference */
+@media (prefers-color-scheme: dark) {
+  html, body { background-color: #ffffff; color: #1a1a1a; }
+}
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.name {
+  padding-top: 20px;
+  margin: 0;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+.subname {
+  margin: 4px 0 0 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Publication / project thumbnails */
+.thumb {
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Hover-swap thumbnail (kept from the reference template, unused for now) */
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+.sectionrule {
+  border: 0;
+  border-top: 1px solid #e2e2e2;
+  margin: 6px 0 0 0;
+}
+
+/* Compact rows for experience / education / projects */
+.rowitem td {
+  vertical-align: top;
+  padding: 6px 16px;
+}
+
+.meta {
+  color: #777;
+  white-space: nowrap;
+}
+
+/* Small screens: stack the header photo above the bio */
+@media (max-width: 600px) {
+  .name { font-size: 26px; }
+  .stackcol { display: block !important; width: 100% !important; box-sizing: border-box; text-align: center; }
+  .thumb { width: 120px; }
+}
